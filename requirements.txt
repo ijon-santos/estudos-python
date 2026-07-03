@@ -1,0 +1,60 @@
+# Core Data Science
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+
+# Visualização
+plotly
+altair
+bokeh
+folium
+missingno
+
+# Machine Learning
+xgboost
+lightgbm
+catboost
+statsmodels
+joblib
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+keras
+
+# LLMs e NLP
+transformers
+datasets
+sentence-transformers
+huggingface-hub
+langchain
+langchain-community
+langchain-core
+openai
+ollama
+
+# Bancos de Dados
+sqlalchemy
+duckdb
+polars
+psycopg2-binary
+mysql-connector-python
+openpyxl
+
+# Dashboards e UI
+streamlit
+jupyterlab
+notebook
+ipywidgets
+
+# Utilitários
+tqdm
+python-dotenv
+pyyaml
+requests
+httpx
+aiohttp

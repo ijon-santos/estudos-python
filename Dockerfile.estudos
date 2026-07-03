@@ -1,0 +1,16 @@
+FROM datascience-base:3.14
+
+# Define o diretório de trabalho dentro do container
+WORKDIR /home/estudos
+
+# Copia o arquivo de dependências para o container
+COPY requirements.txt .
+
+# Instala as bibliotecas listadas no requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expõe a porta padrão do Jupyter Lab
+EXPOSE 8888
+
+# Comando para iniciar o Jupyter Lab
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser"]
