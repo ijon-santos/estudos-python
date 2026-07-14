@@ -25,3 +25,4 @@ dados/*.db
 # OS
 .DS_Store
 Thumbs.db
+.Trash-0/
